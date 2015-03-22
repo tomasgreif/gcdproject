@@ -34,6 +34,8 @@ The data transformation of raw data was performed in the following steps:
 ## List of Columns
 List of columns in `out_df_aggregated`.
 
+Levels for column `activity` are: walking, walking_upstairs, walking_downstairs, sitting,
+standing, laying
 
 |colName|class|domain|axis|mesaureType|Statistic|Units|
 |-----|-----|-----|-----|-----|---|---|
