@@ -32,89 +32,89 @@ The data transformation of raw data was performed in the following steps:
  - write data to file `out.txt`
  
 ## List of Columns
-List of columns in `out_df_aggregated`
+List of columns in `out_df_aggregated`.
 
 
-|colName|class|domain|axis|mesaureType|Statistic|
-|-----|-----|-----|-----|-----|---|
+|colName|class|domain|axis|mesaureType|Statistic|Units|
+|-----|-----|-----|-----|-----|---|---|
 |activity|factor| | | | |
 |subject|integer| | | | |
-|tbodyacc_mean_x|numeric|Time|x|Accelerometer|Mean|
-|tbodyacc_mean_y|numeric|Time|y|Accelerometer|Mean|
-|tbodyacc_mean_z|numeric|Time|z|Accelerometer|Mean|
-|tbodyacc_std_x|numeric|Time|x|Accelerometer|Std Dev.|
-|tbodyacc_std_y|numeric|Time|y|Accelerometer|Std Dev.|
-|tbodyacc_std_z|numeric|Time|z|Accelerometer|Std Dev.|
-|tgravityacc_mean_x|numeric|Time|x|Accelerometer|Mean|
-|tgravityacc_mean_y|numeric|Time|y|Accelerometer|Mean|
-|tgravityacc_mean_z|numeric|Time|z|Accelerometer|Mean|
-|tgravityacc_std_x|numeric|Time|x|Accelerometer|Std Dev.|
-|tgravityacc_std_y|numeric|Time|y|Accelerometer|Std Dev.|
-|tgravityacc_std_z|numeric|Time|z|Accelerometer|Std Dev.|
-|tbodyaccjerk_mean_x|numeric|Time|x|Accelerometer|Mean|
-|tbodyaccjerk_mean_y|numeric|Time|y|Accelerometer|Mean|
-|tbodyaccjerk_mean_z|numeric|Time|z|Accelerometer|Mean|
-|tbodyaccjerk_std_x|numeric|Time|x|Accelerometer|Std Dev.|
-|tbodyaccjerk_std_y|numeric|Time|y|Accelerometer|Std Dev.|
-|tbodyaccjerk_std_z|numeric|Time|z|Accelerometer|Std Dev.|
-|tbodygyro_mean_x|numeric|Time|x|Gyroscope|Mean|
-|tbodygyro_mean_y|numeric|Time|y|Gyroscope|Mean|
-|tbodygyro_mean_z|numeric|Time|z|Gyroscope|Mean|
-|tbodygyro_std_x|numeric|Time|x|Gyroscope|Std Dev.|
-|tbodygyro_std_y|numeric|Time|y|Gyroscope|Std Dev.|
-|tbodygyro_std_z|numeric|Time|z|Gyroscope|Std Dev.|
-|tbodygyrojerk_mean_x|numeric|Time|x|Gyroscope|Mean|
-|tbodygyrojerk_mean_y|numeric|Time|y|Gyroscope|Mean|
-|tbodygyrojerk_mean_z|numeric|Time|z|Gyroscope|Mean|
-|tbodygyrojerk_std_x|numeric|Time|x|Gyroscope|Std Dev.|
-|tbodygyrojerk_std_y|numeric|Time|y|Gyroscope|Std Dev.|
-|tbodygyrojerk_std_z|numeric|Time|z|Gyroscope|Std Dev.|
-|tbodyaccmag_mean|numeric|Time||Accelerometer|Mean|
-|tbodyaccmag_std|numeric|Time||Accelerometer|Std Dev.|
-|tgravityaccmag_mean|numeric|Time||Accelerometer|Mean|
-|tgravityaccmag_std|numeric|Time||Accelerometer|Std Dev.|
-|tbodyaccjerkmag_mean|numeric|Time||Accelerometer|Mean|
-|tbodyaccjerkmag_std|numeric|Time||Accelerometer|Std Dev.|
-|tbodygyromag_mean|numeric|Time||Gyroscope|Mean|
-|tbodygyromag_std|numeric|Time||Gyroscope|Std Dev.|
-|tbodygyrojerkmag_mean|numeric|Time||Gyroscope|Mean|
-|tbodygyrojerkmag_std|numeric|Time||Gyroscope|Std Dev.|
-|fbodyacc_mean_x|numeric|Frequency|x|Accelerometer|Mean|
-|fbodyacc_mean_y|numeric|Frequency|y|Accelerometer|Mean|
-|fbodyacc_mean_z|numeric|Frequency|z|Accelerometer|Mean|
-|fbodyacc_std_x|numeric|Frequency|x|Accelerometer|Std Dev.|
-|fbodyacc_std_y|numeric|Frequency|y|Accelerometer|Std Dev.|
-|fbodyacc_std_z|numeric|Frequency|z|Accelerometer|Std Dev.|
-|fbodyacc_meanfreq_x|numeric|Frequency|x|Accelerometer|Mean|
-|fbodyacc_meanfreq_y|numeric|Frequency|y|Accelerometer|Mean|
-|fbodyacc_meanfreq_z|numeric|Frequency|z|Accelerometer|Mean|
-|fbodyaccjerk_mean_x|numeric|Frequency|x|Accelerometer|Mean|
-|fbodyaccjerk_mean_y|numeric|Frequency|y|Accelerometer|Mean|
-|fbodyaccjerk_mean_z|numeric|Frequency|z|Accelerometer|Mean|
-|fbodyaccjerk_std_x|numeric|Frequency|x|Accelerometer|Std Dev.|
-|fbodyaccjerk_std_y|numeric|Frequency|y|Accelerometer|Std Dev.|
-|fbodyaccjerk_std_z|numeric|Frequency|z|Accelerometer|Std Dev.|
-|fbodyaccjerk_meanfreq_x|numeric|Frequency|x|Accelerometer|Mean|
-|fbodyaccjerk_meanfreq_y|numeric|Frequency|y|Accelerometer|Mean|
-|fbodyaccjerk_meanfreq_z|numeric|Frequency|z|Accelerometer|Mean|
-|fbodygyro_mean_x|numeric|Frequency|x|Gyroscope|Mean|
-|fbodygyro_mean_y|numeric|Frequency|y|Gyroscope|Mean|
-|fbodygyro_mean_z|numeric|Frequency|z|Gyroscope|Mean|
-|fbodygyro_std_x|numeric|Frequency|x|Gyroscope|Std Dev.|
-|fbodygyro_std_y|numeric|Frequency|y|Gyroscope|Std Dev.|
-|fbodygyro_std_z|numeric|Frequency|z|Gyroscope|Std Dev.|
-|fbodygyro_meanfreq_x|numeric|Frequency|x|Gyroscope|Mean|
-|fbodygyro_meanfreq_y|numeric|Frequency|y|Gyroscope|Mean|
-|fbodygyro_meanfreq_z|numeric|Frequency|z|Gyroscope|Mean|
-|fbodyaccmag_mean|numeric|Frequency||Accelerometer|Mean|
-|fbodyaccmag_std|numeric|Frequency||Accelerometer|Std Dev.|
-|fbodyaccmag_meanfreq|numeric|Frequency||Accelerometer|Mean|
-|fbodybodyaccjerkmag_mean|numeric|Frequency||Accelerometer|Mean|
-|fbodybodyaccjerkmag_std|numeric|Frequency||Accelerometer|Std Dev.|
-|fbodybodyaccjerkmag_meanfreq|numeric|Frequency||Accelerometer|Mean|
-|fbodybodygyromag_mean|numeric|Frequency||Gyroscope|Mean|
-|fbodybodygyromag_std|numeric|Frequency||Gyroscope|Std Dev.|
-|fbodybodygyromag_meanfreq|numeric|Frequency||Gyroscope|Mean|
-|fbodybodygyrojerkmag_mean|numeric|Frequency||Gyroscope|Mean|
-|fbodybodygyrojerkmag_std|numeric|Frequency||Gyroscope|Std Dev.|
-|fbodybodygyrojerkmag_meanfreq|numeric|Frequency||Gyroscope|Mean|
+|tbodyacc_mean_x|numeric|Time|x|Accelerometer|Mean|Hz|
+|tbodyacc_mean_y|numeric|Time|y|Accelerometer|Mean|Hz|
+|tbodyacc_mean_z|numeric|Time|z|Accelerometer|Mean|Hz|
+|tbodyacc_std_x|numeric|Time|x|Accelerometer|Std Dev.|Hz|
+|tbodyacc_std_y|numeric|Time|y|Accelerometer|Std Dev.|Hz|
+|tbodyacc_std_z|numeric|Time|z|Accelerometer|Std Dev.|Hz|
+|tgravityacc_mean_x|numeric|Time|x|Accelerometer|Mean|Hz|
+|tgravityacc_mean_y|numeric|Time|y|Accelerometer|Mean|Hz|
+|tgravityacc_mean_z|numeric|Time|z|Accelerometer|Mean|Hz|
+|tgravityacc_std_x|numeric|Time|x|Accelerometer|Std Dev.|Hz|
+|tgravityacc_std_y|numeric|Time|y|Accelerometer|Std Dev.|Hz|
+|tgravityacc_std_z|numeric|Time|z|Accelerometer|Std Dev.|Hz|
+|tbodyaccjerk_mean_x|numeric|Time|x|Accelerometer|Mean|Hz|
+|tbodyaccjerk_mean_y|numeric|Time|y|Accelerometer|Mean|Hz|
+|tbodyaccjerk_mean_z|numeric|Time|z|Accelerometer|Mean|Hz|
+|tbodyaccjerk_std_x|numeric|Time|x|Accelerometer|Std Dev.|Hz|
+|tbodyaccjerk_std_y|numeric|Time|y|Accelerometer|Std Dev.|Hz|
+|tbodyaccjerk_std_z|numeric|Time|z|Accelerometer|Std Dev.|Hz|
+|tbodygyro_mean_x|numeric|Time|x|Gyroscope|Mean|Hz|
+|tbodygyro_mean_y|numeric|Time|y|Gyroscope|Mean|Hz|
+|tbodygyro_mean_z|numeric|Time|z|Gyroscope|Mean|Hz|
+|tbodygyro_std_x|numeric|Time|x|Gyroscope|Std Dev.|Hz|
+|tbodygyro_std_y|numeric|Time|y|Gyroscope|Std Dev.|Hz|
+|tbodygyro_std_z|numeric|Time|z|Gyroscope|Std Dev.|Hz|
+|tbodygyrojerk_mean_x|numeric|Time|x|Gyroscope|Mean|Hz|
+|tbodygyrojerk_mean_y|numeric|Time|y|Gyroscope|Mean|Hz|
+|tbodygyrojerk_mean_z|numeric|Time|z|Gyroscope|Mean|Hz|
+|tbodygyrojerk_std_x|numeric|Time|x|Gyroscope|Std Dev.|Hz|
+|tbodygyrojerk_std_y|numeric|Time|y|Gyroscope|Std Dev.|Hz|
+|tbodygyrojerk_std_z|numeric|Time|z|Gyroscope|Std Dev.|Hz|
+|tbodyaccmag_mean|numeric|Time||Accelerometer|Mean|Hz|
+|tbodyaccmag_std|numeric|Time||Accelerometer|Std Dev.|Hz|
+|tgravityaccmag_mean|numeric|Time||Accelerometer|Mean|Hz|
+|tgravityaccmag_std|numeric|Time||Accelerometer|Std Dev.|Hz|
+|tbodyaccjerkmag_mean|numeric|Time||Accelerometer|Mean|Hz|
+|tbodyaccjerkmag_std|numeric|Time||Accelerometer|Std Dev.|Hz|
+|tbodygyromag_mean|numeric|Time||Gyroscope|Mean|Hz|
+|tbodygyromag_std|numeric|Time||Gyroscope|Std Dev.|Hz|
+|tbodygyrojerkmag_mean|numeric|Time||Gyroscope|Mean|Hz|
+|tbodygyrojerkmag_std|numeric|Time||Gyroscope|Std Dev.|Hz|
+|fbodyacc_mean_x|numeric|Frequency|x|Accelerometer|Mean|Hz|
+|fbodyacc_mean_y|numeric|Frequency|y|Accelerometer|Mean|Hz|
+|fbodyacc_mean_z|numeric|Frequency|z|Accelerometer|Mean|Hz|
+|fbodyacc_std_x|numeric|Frequency|x|Accelerometer|Std Dev.|Hz|
+|fbodyacc_std_y|numeric|Frequency|y|Accelerometer|Std Dev.|Hz|
+|fbodyacc_std_z|numeric|Frequency|z|Accelerometer|Std Dev.|Hz|
+|fbodyacc_meanfreq_x|numeric|Frequency|x|Accelerometer|Mean|Hz|
+|fbodyacc_meanfreq_y|numeric|Frequency|y|Accelerometer|Mean|Hz|
+|fbodyacc_meanfreq_z|numeric|Frequency|z|Accelerometer|Mean|Hz|
+|fbodyaccjerk_mean_x|numeric|Frequency|x|Accelerometer|Mean|Hz|
+|fbodyaccjerk_mean_y|numeric|Frequency|y|Accelerometer|Mean|Hz|
+|fbodyaccjerk_mean_z|numeric|Frequency|z|Accelerometer|Mean|Hz|
+|fbodyaccjerk_std_x|numeric|Frequency|x|Accelerometer|Std Dev.|Hz|
+|fbodyaccjerk_std_y|numeric|Frequency|y|Accelerometer|Std Dev.|Hz|
+|fbodyaccjerk_std_z|numeric|Frequency|z|Accelerometer|Std Dev.|Hz|
+|fbodyaccjerk_meanfreq_x|numeric|Frequency|x|Accelerometer|Mean|Hz|
+|fbodyaccjerk_meanfreq_y|numeric|Frequency|y|Accelerometer|Mean|Hz|
+|fbodyaccjerk_meanfreq_z|numeric|Frequency|z|Accelerometer|Mean|Hz|
+|fbodygyro_mean_x|numeric|Frequency|x|Gyroscope|Mean|Hz|
+|fbodygyro_mean_y|numeric|Frequency|y|Gyroscope|Mean|Hz|
+|fbodygyro_mean_z|numeric|Frequency|z|Gyroscope|Mean|Hz|
+|fbodygyro_std_x|numeric|Frequency|x|Gyroscope|Std Dev.|Hz|
+|fbodygyro_std_y|numeric|Frequency|y|Gyroscope|Std Dev.|Hz|
+|fbodygyro_std_z|numeric|Frequency|z|Gyroscope|Std Dev.|Hz|
+|fbodygyro_meanfreq_x|numeric|Frequency|x|Gyroscope|Mean|Hz|
+|fbodygyro_meanfreq_y|numeric|Frequency|y|Gyroscope|Mean|Hz|
+|fbodygyro_meanfreq_z|numeric|Frequency|z|Gyroscope|Mean|Hz|
+|fbodyaccmag_mean|numeric|Frequency||Accelerometer|Mean|Hz|
+|fbodyaccmag_std|numeric|Frequency||Accelerometer|Std Dev.|Hz|
+|fbodyaccmag_meanfreq|numeric|Frequency||Accelerometer|Mean|Hz|
+|fbodybodyaccjerkmag_mean|numeric|Frequency||Accelerometer|Mean|Hz|
+|fbodybodyaccjerkmag_std|numeric|Frequency||Accelerometer|Std Dev.|Hz|
+|fbodybodyaccjerkmag_meanfreq|numeric|Frequency||Accelerometer|Mean|Hz|
+|fbodybodygyromag_mean|numeric|Frequency||Gyroscope|Mean|Hz|
+|fbodybodygyromag_std|numeric|Frequency||Gyroscope|Std Dev.|Hz|
+|fbodybodygyromag_meanfreq|numeric|Frequency||Gyroscope|Mean|Hz|
+|fbodybodygyrojerkmag_mean|numeric|Frequency||Gyroscope|Mean|Hz|
+|fbodybodygyrojerkmag_std|numeric|Frequency||Gyroscope|Std Dev.|Hz|
+|fbodybodygyrojerkmag_meanfreq|numeric|Frequency||Gyroscope|Mean|Hz|
