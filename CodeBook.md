@@ -34,10 +34,11 @@ The data transformation of raw data was performed in the following steps:
 ## List of Columns
 List of columns in `out_df_aggregated`
 
+
 |colName|class|domain|axis|mesaureType|Statistic|
-|-----|-----|-----|-----|-----|
-|activity|factor|||||
-|subject|integer|||||
+|-----|-----|-----|-----|-----|---|
+|activity|factor| | | | |
+|subject|integer| | | | |
 |tbodyacc_mean_x|numeric|Time|x|Accelerometer|Mean|
 |tbodyacc_mean_y|numeric|Time|y|Accelerometer|Mean|
 |tbodyacc_mean_z|numeric|Time|z|Accelerometer|Mean|
