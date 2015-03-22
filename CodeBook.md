@@ -35,7 +35,7 @@ The data transformation of raw data was performed in the following steps:
 List of columns in `out_df_aggregated`
 
 |colName|class|domain|axis|mesaureType|
-| ------------- |-------------| -----|
+|-----|-----|-----|-----|-----|
 |activity|factor|NA|NA|NA|
 |subject|integer|NA|NA|NA|
 |tbodyacc_mean_x|numeric|Time|x|Accelerometer|
